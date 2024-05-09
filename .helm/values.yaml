@@ -1,0 +1,7 @@
+image:
+  tag: main
+ingress:
+  host: account.komuna.id
+  annotations:
+    cert-manager.io/cluster-issuer: cloudflare
+    nginx.ingress.kubernetes.io/limit-rps: 2
